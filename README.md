@@ -1,4 +1,4 @@
-# Miscreated Server Configuration Guide (Version 3.2)
+# Miscreated Server Configuration Guide (Version 3.4)
 
 ## GitHub Repository
 **URL**: [https://github.com/jerrydharrison-star/miscreated](https://github.com/jerrydharrison-star/miscreated)
@@ -78,22 +78,22 @@ Server appears as "wafflehome" after 15-30 minutes of propagation.
 
 ## Verification Results
 
-✅ Server starts successfully with 18 high-quality mods
-✅ Final UGC CRC calculated and enforced (`4095867549`)
-✅ NodeTypeID limit resolved by removing high-complexity mods
-✅ Environmental Customization: 2x Day, 0.5x Night
-✅ Loot Customization: 1.5x Density and Max Items
-✅ Quality of Life: Halved Hunger and Thirst decay rates
+✅ Environmental Customization: 2x Day, 0.5x Night (forced 10 AM Sunrise)
+✅ Loot Customization: 1.25x Density and Max Items
+✅ Combat Customization: +0.1 Player Damage and +0.1 Player Resistance (stacked)
+✅ Quality of Life: Halved Hunger and Thirst decay rates, 1s respawn
 ✅ Client connection verified successful (no kicks)
 
 ## Final Mod Configuration (v3.0)
 The server is running a curated list of 18 mods, documented in [MOD_LIST.md](file:///c:/Games/MiscreatedServer/MOD_LIST.md). The `Ultra Vehicle Pack` was removed to maintain engine stability.
 
 **Commit (v1.0)**: Initialized v1.0 configuration (Vanilla)
-**Commit (v2.0)**: `485cbef` - Modded Stable (18 mods)
-**Commit (v3.0)**: `2e8e644` - Perfect Morning and Instant Respawn
-**Commit (v3.1)**: `57ac5d5` - Full server config directory sync
-**Commit (v3.2)**: `7a71a67` - Redacted sensitive Steam tokens
+**Commit (v2.0)**: Modded Stable (18 mods)
+**Commit (v3.0)**: Perfect Morning and Instant Respawn
+**Commit (v3.1)**: Full server config directory sync
+**Commit (v3.2)**: Redacted sensitive Steam tokens
+**Commit (v3.3)**: Added comprehensive project README
+**Commit (v3.4)**: Refined loot to 1.25x and added combat multipliers
 
 **Tracked Files on GitHub**:
 - `hosting.cfg` (Main configuration)
