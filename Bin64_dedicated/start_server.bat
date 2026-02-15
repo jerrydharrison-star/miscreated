@@ -7,6 +7,6 @@ if "%ERRORLEVEL%"=="0" (
 )
 
 echo Starting Miscreated Server with Refined Steam Identity...
-start /affinity F /wait MiscreatedServer.exe -dedicated -sv_port 64090 -sv_steamaccount 1E9ED7374DBA410275E4D921079B91A8 +map islands
+start /affinity F /wait MiscreatedServer.exe -dedicated -sv_port 64090 -sv_steamaccount <YOUR_STEAM_ACCOUNT_TOKEN> +map islands
 echo Server has stopped.
 exit
